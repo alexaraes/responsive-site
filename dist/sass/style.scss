@@ -64,10 +64,88 @@ header {
 		}
 }
 
+.pricing.biz {
+	height: 190px;
+	background-color: #2d4a83;
+	color: white;
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+	box-sizing: border-box;
+	.container {
+		height: 220px;
+		text-align: center;
+		padding-top: 20px;
+		.type {
+		font-size: 20px;
+		}
+		.price {
+			font-size: 90px;
+		}
+		.per-month.biz {
+			color: #8d9fc3;
+			font-size: 18px;
+			}
+		}
+}
+
+.pricing.ent {
+	height: 190px;
+	background-color: black;
+	color: white;
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+	box-sizing: border-box;
+	.container {
+		height: 220px;
+		text-align: center;
+		padding-top: 20px;
+		.type {
+		font-size: 20px;
+		}
+		.price {
+			font-size: 90px;
+		}
+		.per-month.ent {
+			color: gray;
+			font-size: 18px;
+			}
+		}
+}
+
 .perks {
 	height: 45px;
 	margin-left: 10px;
 	margin-right: 10px;
 	box-sizing: border-box;
 	border: 1px solid #e5e5e5;
+	text-align: center;
+	padding-top: 10px;
+	color: gray;
+	background: #f7f7f7;
+}
+
+.choose {
+	height: 85px;
+	margin-left: 10px;
+	margin-right: 10px;
+	box-sizing: border-box;
+	border: 1px solid #e5e5e5;
+	.choose-btn {
+		height: 40px;
+		width: 95px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 25px;
+		border: 2px solid #e5e5e5;
+		border-radius: 25px;
+		box-sizing: border-box;
+		color: black;
+		text-align: center;
+		font-size: 19px;
+		padding-top: 5px;
+	}
 }
