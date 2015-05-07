@@ -1,21 +1,36 @@
+* {
+  font-family: sans-serif; }
+
 header {
-	background: white;
-	height: 40px;
-
-}
-
-.header {
-	color: gray;
-	height: 40px;
-	display: inline;
-}
+  background-color: white;
+  height: 70px; }
+  header div {
+    color: gray;
+    display: inline;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 16px; }
 
 .photo {
-	height: 200px;
-	background: url("images/tree-background.jpg");
-	background-attachment: fixed;
-	top: 0;
-	left: 0;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
+  height: 100px;
+  text-align: center;
+  background: url(../images/tree-background.jpg);
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0; }
+  .photo .try-before {
+    width: 500px;
+    color: white;
+    text-align: center;
+    display: inline-block; }
+    .photo .try-before .simple {
+      font-size: 40px; }
+
+.personal {
+  height: 220px;
+  background-color: #509550; }
+
+/*# sourceMappingURL=style.css.map */

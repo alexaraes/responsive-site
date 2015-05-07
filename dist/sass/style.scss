@@ -1,0 +1,43 @@
+* {
+	font-family: sans-serif;
+}
+
+header {
+	background-color: white;
+	height: 70px;
+		div {
+			color: gray;
+			display: inline;
+			padding-left: 25px;
+			padding-right: 25px;
+			font-size: 16px;
+		}
+}
+
+.photo {
+	height: 100px;
+	text-align: center;
+	background: url(../images/tree-background.jpg);
+	background-attachment: fixed;
+	top: 0;
+	left: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 100px 0;
+	.try-before {
+		width: 500px;
+		color: white;
+		text-align: center;
+		display: inline-block;
+	.simple {
+		font-size: 40px;
+	}
+
+	}
+}
+
+.personal {
+	height: 220px;
+	background-color: #509550;
+
+}
