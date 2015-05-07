@@ -36,8 +36,26 @@ header {
 	}
 }
 
-.personal {
-	height: 220px;
+.monthly-personal-price {
+	height: 190px;
 	background-color: #509550;
-
+	color: white;
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+	padding-top: 30px;
+	.container {
+		height: 220px;
+		text-align: center;
+		.personal {
+		font-size: 20px;
+		}
+		.five-dollars {
+			font-size: 60px;
+		}
+		.per-month {
+			font-size: 20px;
+			}
+		}
 }

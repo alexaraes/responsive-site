@@ -29,8 +29,23 @@ header {
     .photo .try-before .simple {
       font-size: 40px; }
 
-.personal {
-  height: 220px;
-  background-color: #509550; }
+.monthly-personal-price {
+  height: 190px;
+  background-color: #509550;
+  color: white;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  padding-top: 30px; }
+  .monthly-personal-price .container {
+    height: 220px;
+    text-align: center; }
+    .monthly-personal-price .container .personal {
+      font-size: 20px; }
+    .monthly-personal-price .container .five-dollars {
+      font-size: 60px; }
+    .monthly-personal-price .container .per-month {
+      font-size: 20px; }
 
 /*# sourceMappingURL=style.css.map */
