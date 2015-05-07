@@ -3,7 +3,9 @@
 
 header {
   background-color: white;
-  height: 70px; }
+  height: 60px;
+  box-sizing: border-box;
+  padding-top: 20px; }
   header div {
     color: gray;
     display: inline;
@@ -29,7 +31,7 @@ header {
     .photo .try-before .simple {
       font-size: 40px; }
 
-.monthly-personal-price {
+.pricing {
   height: 190px;
   background-color: #509550;
   color: white;
@@ -37,15 +39,24 @@ header {
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
-  padding-top: 30px; }
-  .monthly-personal-price .container {
+  box-sizing: border-box; }
+  .pricing .container {
     height: 220px;
-    text-align: center; }
-    .monthly-personal-price .container .personal {
+    text-align: center;
+    padding-top: 20px; }
+    .pricing .container .type {
       font-size: 20px; }
-    .monthly-personal-price .container .five-dollars {
-      font-size: 60px; }
-    .monthly-personal-price .container .per-month {
-      font-size: 20px; }
+    .pricing .container .price {
+      font-size: 90px; }
+    .pricing .container .per-month {
+      color: #a6c6a6;
+      font-size: 18px; }
+
+.perks {
+  height: 45px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-sizing: border-box;
+  border: 1px solid #e5e5e5; }
 
 /*# sourceMappingURL=style.css.map */
