@@ -1,0 +1,21 @@
+header {
+	background: white;
+	height: 40px;
+
+}
+
+.header {
+	color: gray;
+	height: 40px;
+	display: inline;
+}
+
+.photo {
+	height: 200px;
+	background: url("images/tree-background.jpg");
+	background-attachment: fixed;
+	top: 0;
+	left: 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
