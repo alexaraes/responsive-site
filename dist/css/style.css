@@ -30,8 +30,10 @@ header {
     color: white;
     text-align: center;
     display: inline-block; }
-    .photo .try-before .simple {
-      font-size: 40px; }
+  .photo .simple {
+    font-size: 40px; }
+  .photo .try {
+    font-size: 40px; }
 
 .pricing {
   height: 190px;
@@ -139,8 +141,12 @@ header {
     display: inline-block;
     letter-spacing: 3px; }
     .info h3 .paragraph {
-      display: inline;
-      margin-bottom: 70px; }
+      display: inline-block;
+      margin-bottom: 50px; }
+
+.paragraph {
+  display: inline-block;
+  margin-bottom: 50px; }
 
 footer {
   background: black;
@@ -149,18 +155,9 @@ footer {
   text-align: center;
   line-height: 200%;
   box-sizing: border-box;
-  padding-top: 10px; }
+  padding-top: 20px; }
   footer a {
     color: white;
     text-decoration: underline; }
-
-@media (min-width: 480px) {
-  .photo {
-    height: 200px; }
-    .photo .simple {
-      margin-top: 125px;
-      font-size: 50px; }
-      .photo .simple .try {
-        margin-top: 0; } }
 
 /*# sourceMappingURL=style.css.map */
