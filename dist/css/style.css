@@ -9,7 +9,7 @@ header {
   header div {
     color: gray;
     display: inline;
-    padding-left: 25px;
+    margin-left: 20px;
     padding-right: 25px;
     font-size: 16px; }
 
@@ -22,7 +22,9 @@ header {
   left: 0;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 0; }
+  padding: 100px 0;
+  margin: 1px;
+  text-shadow: 0 3px 0 rgba(0, 0, 0, 0.5); }
   .photo .try-before {
     width: 500px;
     color: white;
@@ -128,7 +130,7 @@ header {
     font-weight: bold; }
 
 .info {
-  height: 300px;
+  height: 100%;
   padding: 10px;
   text-align: left;
   line-height: 150%; }
@@ -140,10 +142,25 @@ header {
       display: inline;
       margin-bottom: 70px; }
 
-.try-now {
+footer {
   background: black;
   height: 100px;
   color: gray;
-  text-align: center; }
+  text-align: center;
+  line-height: 200%;
+  box-sizing: border-box;
+  padding-top: 10px; }
+  footer a {
+    color: white;
+    text-decoration: underline; }
+
+@media (min-width: 480px) {
+  .photo {
+    height: 200px; }
+    .photo .simple {
+      margin-top: 125px;
+      font-size: 50px; }
+      .photo .simple .try {
+        margin-top: 0; } }
 
 /*# sourceMappingURL=style.css.map */
