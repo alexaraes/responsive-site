@@ -109,6 +109,7 @@ header {
   height: 85px;
   margin-left: 10px;
   margin-right: 10px;
+  margin-bottom: 20px;
   box-sizing: border-box;
   border: 1px solid #e5e5e5; }
   .choose .choose-btn {
@@ -122,7 +123,27 @@ header {
     box-sizing: border-box;
     color: black;
     text-align: center;
-    font-size: 19px;
-    padding-top: 5px; }
+    font-size: 17px;
+    padding-top: 7px;
+    font-weight: bold; }
+
+.info {
+  height: 300px;
+  padding: 10px;
+  text-align: left;
+  line-height: 150%; }
+  .info h3 {
+    margin-top: 70px;
+    display: inline-block;
+    letter-spacing: 3px; }
+    .info h3 .paragraph {
+      display: inline;
+      margin-bottom: 70px; }
+
+.try-now {
+  background: black;
+  height: 100px;
+  color: gray;
+  text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
