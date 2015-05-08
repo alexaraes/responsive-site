@@ -160,4 +160,22 @@ footer {
     color: white;
     text-decoration: underline; }
 
+@media (min-width: 479px) {
+  .photo {
+    height: 200px; }
+
+  .simple {
+    margin-top: 125px;
+    font-size: 50px; }
+
+  .try {
+    margin-top: 0; } }
+@media (min-width: 768px) {
+  .photo {
+    height: 200px; }
+
+  .simple {
+    margin-top: 145px;
+    font-size: 60px; } }
+
 /*# sourceMappingURL=style.css.map */
