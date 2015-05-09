@@ -105,6 +105,20 @@ header {
     display: inline-block;
     margin-bottom: 25px; }
 
+footer {
+  background: black;
+  height: 100px;
+  color: gray;
+  text-align: center;
+  line-height: 200%;
+  padding-top: 20px; }
+  footer .try-now {
+    margin: 0 auto;
+    width: 60%; }
+  footer a {
+    color: white;
+    text-decoration: underline; }
+
 @media (min-width: 479px) {
   .photo {
     height: 400px;
@@ -116,20 +130,6 @@ header {
     .photo .try {
       font-size: 50px; } }
 @media (min-width: 767px) {
-  header {
-    background-color: white;
-    height: 60px;
-    padding-top: 20px; }
-    header nav {
-      color: gray;
-      display: inline;
-      margin-left: 0px;
-      margin-right: 0px;
-      font-size: 16px; }
-
-  .photo {
-    height: 400px; }
-
   .container {
     margin-top: 50px;
     padding-left: 12px; }
@@ -144,10 +144,19 @@ header {
       margin-bottom: 20px;
       border: 1px solid #e5e5e5; }
 
+  .container2 {
+    padding: 0 20px 0 30px;
+    width: 100%; }
+
   .info {
-    height: 100%;
-    padding: 0;
-    width: 50%;
-    margin: 0 10px; } }
+    float: left;
+    width: 40%;
+    margin-left: 50px; }
+    .info .paragraph.start {
+      margin-bottom: 50px; }
+
+  footer {
+    clear: both;
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */
