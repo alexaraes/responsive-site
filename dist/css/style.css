@@ -1,39 +1,40 @@
 * {
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  box-sizing: border-box; }
 
 header {
   background-color: white;
   height: 60px;
-  box-sizing: border-box;
   padding-top: 20px; }
   header div {
     color: gray;
     display: inline;
-    margin-left: 20px;
-    padding-right: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
     font-size: 16px; }
 
 .photo {
-  height: 100px;
+  height: 200px;
   text-align: center;
   background: url(../images/tree-background.jpg);
-  background-attachment: fixed;
+  background-position: top left;
   top: 0;
   left: 0;
+  padding-top: 50px;
   background-repeat: no-repeat;
-  background-size: cover;
-  padding: 100px 0;
+  background-attachment: scroll, fixed;
+  background-size: auto;
   margin: 1px;
   text-shadow: 0 3px 0 rgba(0, 0, 0, 0.5); }
   .photo .try-before {
-    width: 500px;
+    width: 100%;
     color: white;
     text-align: center;
     display: inline-block; }
   .photo .simple {
-    font-size: 40px; }
+    font-size: 30px; }
   .photo .try {
-    font-size: 40px; }
+    font-size: 30px; }
 
 .pricing {
   height: 190px;
@@ -42,8 +43,7 @@ header {
   margin-top: 50px;
   margin-left: 10px;
   margin-right: 10px;
-  text-align: center;
-  box-sizing: border-box; }
+  text-align: center; }
   .pricing .container {
     height: 220px;
     text-align: center;
@@ -63,8 +63,7 @@ header {
   margin-top: 50px;
   margin-left: 10px;
   margin-right: 10px;
-  text-align: center;
-  box-sizing: border-box; }
+  text-align: center; }
   .pricing.biz .container {
     height: 220px;
     text-align: center;
@@ -84,25 +83,23 @@ header {
   margin-top: 50px;
   margin-left: 10px;
   margin-right: 10px;
-  text-align: center;
-  box-sizing: border-box; }
+  text-align: center; }
   .pricing.ent .container {
     height: 220px;
     text-align: center;
     padding-top: 20px; }
-    .pricing.ent .container .type {
-      font-size: 20px; }
-    .pricing.ent .container .price {
-      font-size: 90px; }
-    .pricing.ent .container .per-month.ent {
-      color: gray;
-      font-size: 18px; }
+  .pricing.ent .type {
+    font-size: 20px; }
+  .pricing.ent .price {
+    font-size: 90px; }
+  .pricing.ent .per-month.ent {
+    color: gray;
+    font-size: 18px; }
 
 .perks {
   height: 45px;
   margin-left: 10px;
   margin-right: 10px;
-  box-sizing: border-box;
   border: 1px solid #e5e5e5;
   text-align: center;
   padding-top: 10px;
@@ -114,7 +111,6 @@ header {
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 20px;
-  box-sizing: border-box;
   border: 1px solid #e5e5e5; }
   .choose .choose-btn {
     height: 40px;
@@ -124,7 +120,6 @@ header {
     margin-top: 25px;
     border: 2px solid #e5e5e5;
     border-radius: 25px;
-    box-sizing: border-box;
     color: black;
     text-align: center;
     font-size: 17px;
@@ -140,9 +135,9 @@ header {
     margin-top: 70px;
     display: inline-block;
     letter-spacing: 3px; }
-    .info h3 .paragraph {
-      display: inline-block;
-      margin-bottom: 50px; }
+  .info .paragraph {
+    display: inline-block;
+    margin-bottom: 50px; }
 
 .paragraph {
   display: inline-block;
@@ -154,7 +149,6 @@ footer {
   color: gray;
   text-align: center;
   line-height: 200%;
-  box-sizing: border-box;
   padding-top: 20px; }
   footer a {
     color: white;
@@ -162,20 +156,13 @@ footer {
 
 @media (min-width: 479px) {
   .photo {
-    height: 200px; }
-
-  .simple {
-    margin-top: 125px;
-    font-size: 50px; }
-
-  .try {
-    margin-top: 0; } }
-@media (min-width: 768px) {
-  .photo {
-    height: 200px; }
-
-  .simple {
-    margin-top: 145px;
-    font-size: 60px; } }
+    height: 400px;
+    padding-top: 100px; }
+    .photo .try-before {
+      width: 479px; }
+    .photo .simple {
+      font-size: 50px; }
+    .photo .try {
+      font-size: 50px; } }
 
 /*# sourceMappingURL=style.css.map */
