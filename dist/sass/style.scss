@@ -44,15 +44,18 @@ header {
 			}
 }
 
-.pricing {
-	height: 190px;
-	background-color: #509550;
+.container {
+	margin: 0 auto;
+	position: relative;
+}
+
+.info-box {
+	height: 100%;
 	color: white;
-	margin-top: 50px;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin: 50px 35px 0 35px;
 	text-align: center;
-	.container {
+	.words {
+		background-color: #509550;
 		height: 220px;
 		text-align: center;
 		padding-top: 20px;
@@ -66,74 +69,32 @@ header {
 			color: #a6c6a6;
 			font-size: 18px;
 			}
-		}
-}
-
-.pricing.biz {
-	height: 190px;
-	background-color: #2d4a83;
-	color: white;
-	margin-top: 50px;
-	margin-left: 10px;
-	margin-right: 10px;
-	text-align: center;
-	.container {
-		height: 220px;
-		text-align: center;
-		padding-top: 20px;
-		.type {
-		font-size: 20px;
-		}
-		.price {
-			font-size: 90px;
-		}
-		.per-month.biz {
+		.per-month.blue {
 			color: #8d9fc3;
 			font-size: 18px;
 			}
-		}
-}
-
-.pricing.ent {
-	height: 190px;
-	background-color: black;
-	color: white;
-	margin-top: 50px;
-	margin-left: 10px;
-	margin-right: 10px;
-	text-align: center;
-	.container {
-		height: 220px;
-		text-align: center;
-		padding-top: 20px;
-		}
-		.type {
-		font-size: 20px;
-		}
-		.price {
-			font-size: 90px;
-		}
-		.per-month.ent {
+		.per-month.gray {
 			color: gray;
 			font-size: 18px;
 			}
-}
-
-.perks {
+		}
+	.words.blue {
+		background-color: #2c4985;
+	}
+	.words.black {
+		background-color: black;
+	}
+	.perks {
 	height: 45px;
-	margin-left: 10px;
-	margin-right: 10px;
 	border: 1px solid #e5e5e5;
 	text-align: center;
 	padding-top: 10px;
 	color: gray;
 	background: #f7f7f7;
-}
+	}
 
-.choose {
+	.choose {
 	height: 85px;
-	margin-left: 10px;
-	margin-right: 10px;
 	margin-bottom: 20px;
 	border: 1px solid #e5e5e5;
 	.choose-btn {
@@ -149,6 +110,7 @@ header {
 		font-size: 17px;
 		padding-top: 7px;
 		font-weight: bold;
+		}
 	}
 }
 
@@ -158,42 +120,35 @@ padding: 10px;
 text-align: left;
 line-height: 150%;
 	h3 {
-		margin-top: 70px;
+		margin-top: 35px;
 		display: inline-block;
 		letter-spacing: 3px;
 		}
 		.paragraph {
 		display: inline-block;
-		margin-bottom: 50px;
+		margin-bottom: 25px;
 		}
 }
 
-.paragraph {
-		display: inline-block;
-		margin-bottom: 50px;
-	}
-
-footer {
-	background: black;
-	height: 100px;
-	color: gray;
-	text-align: center;
-	line-height: 200%;
-	padding-top: 20px;
-	& a {
-		color:white;
-		text-decoration: underline;
-	}
-}
+// footer {
+// 	background: black;
+// 	height: 100px;
+// 	color: gray;
+// 	text-align: center;
+// 	line-height: 200%;
+// 	padding-top: 20px;
+// 	& a {
+// 		color:white;
+// 		text-decoration: underline;
+// 	}
+// }
 @media (min-width: 479px) {
 	.photo {
 	height: 400px;
 	padding-top: 100px;
-	
-	
+
 		.try-before {
 			width: 479px;
-
 		}
 		.simple {
 			font-size: 50px;
@@ -201,5 +156,49 @@ footer {
 		.try {
 			font-size: 50px;
 				}
+			}
+}
+
+@media (min-width:767px) {
+	header {
+	background-color: white;
+	height: 60px;
+	padding-top: 20px;
+		nav {
+			color: gray;
+			display: inline;
+			margin-left: 0px;
+			margin-right: 0px;
+			font-size: 16px;
+		}
+}
+
+.photo {
+	height: 400px;
+}
+
+.container {
+	margin-top: 50px;
+	padding-left: 12px;
+}
+
+.info-box {
+	padding: 0;
+	float: left;
+	width: 30%;
+	margin: 0 10px;
+	.choose {
+	height: 85px;
+	margin-bottom: 20px;
+	border: 1px solid #e5e5e5;
 	}
+}
+
+.info {
+height: 100%;
+padding: 0;
+width: 50%;
+margin: 0 10px;
+}
+
 }
